@@ -1,0 +1,6 @@
+ 996  cd /opt/081024_morning/KondratenkoN/
+ 997  touch test.txt
+ 1002  chmod u+x,o-r test.txt
+ 1004  ps -ef >> ps.txt
+ 1013   ps -ef | tail -n +2 | wc -l >> ps.txt 
+ 1014  cat ps.txt 

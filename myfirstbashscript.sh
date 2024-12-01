@@ -1,6 +1,5 @@
 #!/bin/bash
 USER="Natalia Kondratenko"
-VAR=2
 date
 echo Hello $USER!
 pwd
